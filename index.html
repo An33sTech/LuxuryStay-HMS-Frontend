@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./src/assets/admin/images/luxurylogo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+</head>
+<body>
+  <div id="root" class=""></div>
+  <script>
+    const rootDiv = document.getElementById("root");
+    if (window.location.pathname.startsWith("/admin")) {
+      document.documentElement.setAttribute("data-bs-theme", "dark");
+      document.title = "Luxury Stay HMS - Admin Panel";
+      rootDiv.classList.add("admin-root");
+    } else {
+      document.title = "Luxury Stay HMS";
+      // const link = document.createElement("link");
+      // link.rel = "stylesheet";
+      // link.href = "./src/styles/index.css";
+      // document.head.appendChild(link);
+      rootDiv.classList.add("website-root");
+    }
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
