@@ -25,7 +25,6 @@ import FeedbackDetails from "./Pages/admin/Feedback.jsx"
 import Profile from "./Pages/admin/Profile.jsx"
 
 function App() {
-  console.log("hello");
   const isAdmin = window.location.pathname.startsWith('/admin');
 
   useEffect(() => {
