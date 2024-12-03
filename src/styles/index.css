@@ -10,7 +10,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.website-root .btn {
+.btn {
   background: linear-gradient(90deg, rgba(66, 230, 255, 1) 0%, rgba(139, 94, 247, 1) 100%);
   color: white;
   padding: 10px 20px;
@@ -24,7 +24,7 @@
   transition: color 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
 }
 
-.website-root .btn::before {
+.btn::before {
   content: "";
   position: absolute;
   top: 0;
@@ -36,13 +36,13 @@
   transition: opacity 0.4s ease;
 }
 
-.website-root .btn:hover {
+.btn:hover {
   color: rgba(255, 255, 255, 0.9); /* Slightly dim text for contrast */
   /* border: 2px solid rgba(139, 94, 247, 1);  */
   /* box-shadow: 0 0 20px rgba(139, 94, 247, 0.6), 0 0 30px rgba(66, 230, 255, 0.4);  */
 }
 
-.website-root .btn:hover::before {
+.btn:hover::before {
   opacity: 1; /* Make the shine visible */
   animation: shine 0.8s linear forwards; /* Shine animation */
 }

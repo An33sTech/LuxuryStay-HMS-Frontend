@@ -9,7 +9,7 @@ function Sidebar() {
                         <img src={logoIcon} className="logo-img" alt="" />
                     </div>
                     <div className="logo-name flex-grow-1">
-                        <h5 className="mb-0">Maxton</h5>
+                        <h5 className="mb-0">Luxury Stay</h5>
                     </div>
                     <div className="sidebar-close">
                         <span className="material-icons-outlined">close</span>
@@ -63,6 +63,13 @@ function Sidebar() {
                                 <div className="parent-icon"><i className="material-symbols-outlined">person_add</i>
                                 </div>
                                 <div className="menu-title">Register</div>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to={"/admin/logout"}>
+                                <div className="parent-icon"><i className="material-symbols-outlined">power_settings_new</i>
+                                </div>
+                                <div className="menu-title">Logout</div>
                             </Link>
                         </li>
                     </ul>

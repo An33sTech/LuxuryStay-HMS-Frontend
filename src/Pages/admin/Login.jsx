@@ -121,7 +121,7 @@ function LoginPage() {
                                             </div>
                                             <div className="col-12">
                                                 <div className="d-grid">
-                                                    <button type="submit" className="btn btn-grd-primary">
+                                                    <button type="submit" className="btn outline-none">
                                                         Login
                                                     </button>
                                                 </div>
